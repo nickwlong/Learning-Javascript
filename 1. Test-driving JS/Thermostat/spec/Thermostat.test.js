@@ -49,17 +49,38 @@ describe("Thermostat", function () {
 
   describe("#reset", function () {
     it("resets the temperature to the default", function () {
-      thermo.reset;
+      thermo.setPowerSavingMode(false);
+      for (let i = 0; i < 20; i++) {
+        thermo.up();
+      }
+      thermo.reset();
       expect(thermo.getTemperature()).toBe(20);
     });
   });
 
   describe("#energyUse", function () {
     it("describes low energy use for < 18", function () {
-      for (let i = 0; i < 3; i++) {
+      for (let i = 0; i < 4; i++) {
         thermo.down();
       }
-      thermo.energyUse();
+      expect(thermo.getTemperature()).toBe(16);
+      expect(thermo.energyUse()).toBe("low-usage");
+    });
+    it("describes medium energy use for >= 18, <=25", function () {
+      for (let i = 0; i < 5; i++) {
+        thermo.up();
+      }
+      expect(thermo.getTemperature()).toBe(25);
+      expect(thermo.energyUse()).toBe("medium-usage");
+    });
+    it("describes high energy use for > 25", function () {
+      thermo.setPowerSavingMode(false);
+
+      for (let i = 0; i < 6; i++) {
+        thermo.up();
+      }
+      expect(thermo.getTemperature()).toBe(26);
+      expect(thermo.energyUse()).toBe("high-usage");
     });
   });
 });

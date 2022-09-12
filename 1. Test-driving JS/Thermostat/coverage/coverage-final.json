@@ -12,7 +12,7 @@
       },
       "2": {
         "start": { "line": 5, "column": 0 },
-        "end": { "line": 5, "column": 20 }
+        "end": { "line": 5, "column": 21 }
       }
     },
     "fnMap": {
@@ -34,7 +34,7 @@
     "f": { "0": 1 },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "d5c1d45434a45cf8c83d5b606040bdf730a17e29"
+    "hash": "2e7b03cf27385d25ed19386c6b0b35f06fe64fa4"
   },
   "/Users/nickwlong/Projects/Javascript/1. Test-driving JS/Thermostat/lib/Thermostat.js": {
     "path": "/Users/nickwlong/Projects/Javascript/1. Test-driving JS/Thermostat/lib/Thermostat.js",
@@ -49,23 +49,59 @@
       },
       "2": {
         "start": { "line": 8, "column": 4 },
-        "end": { "line": 8, "column": 27 }
+        "end": { "line": 8, "column": 28 }
       },
       "3": {
         "start": { "line": 12, "column": 4 },
-        "end": { "line": 12, "column": 55 }
+        "end": { "line": 14, "column": 5 }
       },
       "4": {
-        "start": { "line": 12, "column": 32 },
-        "end": { "line": 12, "column": 54 }
+        "start": { "line": 13, "column": 6 },
+        "end": { "line": 13, "column": 28 }
       },
       "5": {
-        "start": { "line": 16, "column": 4 },
-        "end": { "line": 16, "column": 25 }
+        "start": { "line": 15, "column": 4 },
+        "end": { "line": 17, "column": 5 }
       },
       "6": {
-        "start": { "line": 22, "column": 0 },
-        "end": { "line": 22, "column": 27 }
+        "start": { "line": 16, "column": 6 },
+        "end": { "line": 16, "column": 28 }
+      },
+      "7": {
+        "start": { "line": 21, "column": 4 },
+        "end": { "line": 21, "column": 26 }
+      },
+      "8": {
+        "start": { "line": 25, "column": 4 },
+        "end": { "line": 25, "column": 28 }
+      },
+      "9": {
+        "start": { "line": 29, "column": 4 },
+        "end": { "line": 29, "column": 26 }
+      },
+      "10": {
+        "start": { "line": 33, "column": 4 },
+        "end": { "line": 39, "column": 5 }
+      },
+      "11": {
+        "start": { "line": 34, "column": 6 },
+        "end": { "line": 34, "column": 25 }
+      },
+      "12": {
+        "start": { "line": 35, "column": 11 },
+        "end": { "line": 39, "column": 5 }
+      },
+      "13": {
+        "start": { "line": 36, "column": 6 },
+        "end": { "line": 36, "column": 28 }
+      },
+      "14": {
+        "start": { "line": 38, "column": 6 },
+        "end": { "line": 38, "column": 26 }
+      },
+      "15": {
+        "start": { "line": 43, "column": 0 },
+        "end": { "line": 43, "column": 28 }
       }
     },
     "fnMap": {
@@ -76,7 +112,7 @@
           "end": { "line": 2, "column": 3 }
         },
         "loc": {
-          "start": { "line": 2, "column": 15 },
+          "start": { "line": 2, "column": 16 },
           "end": { "line": 5, "column": 3 }
         },
         "line": 2
@@ -101,44 +137,191 @@
         },
         "loc": {
           "start": { "line": 11, "column": 7 },
-          "end": { "line": 13, "column": 3 }
+          "end": { "line": 18, "column": 3 }
         },
         "line": 11
       },
       "3": {
         "name": "(anonymous_3)",
         "decl": {
-          "start": { "line": 15, "column": 2 },
-          "end": { "line": 15, "column": 3 }
+          "start": { "line": 20, "column": 2 },
+          "end": { "line": 20, "column": 3 }
         },
         "loc": {
-          "start": { "line": 15, "column": 9 },
-          "end": { "line": 17, "column": 3 }
+          "start": { "line": 20, "column": 9 },
+          "end": { "line": 22, "column": 3 }
         },
-        "line": 15
+        "line": 20
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": { "line": 24, "column": 2 },
+          "end": { "line": 24, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 24, "column": 29 },
+          "end": { "line": 26, "column": 3 }
+        },
+        "line": 24
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": { "line": 28, "column": 2 },
+          "end": { "line": 28, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 28, "column": 10 },
+          "end": { "line": 30, "column": 3 }
+        },
+        "line": 28
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": { "line": 32, "column": 2 },
+          "end": { "line": 32, "column": 3 }
+        },
+        "loc": {
+          "start": { "line": 32, "column": 14 },
+          "end": { "line": 40, "column": 3 }
+        },
+        "line": 32
       }
     },
     "branchMap": {
       "0": {
         "loc": {
           "start": { "line": 12, "column": 4 },
-          "end": { "line": 12, "column": 55 }
+          "end": { "line": 14, "column": 5 }
         },
         "type": "if",
         "locations": [
           {
             "start": { "line": 12, "column": 4 },
-            "end": { "line": 12, "column": 55 }
+            "end": { "line": 14, "column": 5 }
           },
           { "start": {}, "end": {} }
         ],
         "line": 12
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 12, "column": 8 },
+          "end": { "line": 12, "column": 47 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 12, "column": 8 },
+            "end": { "line": 12, "column": 22 }
+          },
+          {
+            "start": { "line": 12, "column": 26 },
+            "end": { "line": 12, "column": 47 }
+          }
+        ],
+        "line": 12
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 15, "column": 4 },
+          "end": { "line": 17, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 15, "column": 4 },
+            "end": { "line": 17, "column": 5 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 15
+      },
+      "3": {
+        "loc": {
+          "start": { "line": 15, "column": 8 },
+          "end": { "line": 15, "column": 57 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 15, "column": 8 },
+            "end": { "line": 15, "column": 32 }
+          },
+          {
+            "start": { "line": 15, "column": 36 },
+            "end": { "line": 15, "column": 57 }
+          }
+        ],
+        "line": 15
+      },
+      "4": {
+        "loc": {
+          "start": { "line": 33, "column": 4 },
+          "end": { "line": 39, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 33, "column": 4 },
+            "end": { "line": 39, "column": 5 }
+          },
+          {
+            "start": { "line": 35, "column": 11 },
+            "end": { "line": 39, "column": 5 }
+          }
+        ],
+        "line": 33
+      },
+      "5": {
+        "loc": {
+          "start": { "line": 35, "column": 11 },
+          "end": { "line": 39, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 35, "column": 11 },
+            "end": { "line": 39, "column": 5 }
+          },
+          {
+            "start": { "line": 37, "column": 11 },
+            "end": { "line": 39, "column": 5 }
+          }
+        ],
+        "line": 35
       }
     },
-    "s": { "0": 5, "1": 5, "2": 5, "3": 15, "4": 10, "5": 1, "6": 1 },
-    "f": { "0": 5, "1": 5, "2": 15, "3": 1 },
-    "b": { "0": [10, 5] },
+    "s": {
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 55,
+      "4": 10,
+      "5": 55,
+      "6": 24,
+      "7": 5,
+      "8": 2,
+      "9": 1,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 1
+    },
+    "f": { "0": 8, "1": 8, "2": 55, "3": 5, "4": 2, "5": 1, "6": 0 },
+    "b": {
+      "0": [10, 45],
+      "1": [55, 15],
+      "2": [24, 31],
+      "3": [55, 40],
+      "4": [0, 0],
+      "5": [0, 0]
+    },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "d3abb385854f2ae3e881d83ec46c0b612d0f1243"
+    "hash": "b132ca2929ef7b874b566ee7be83560a41523c84"
   }
 }
