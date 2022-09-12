@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1662980781093" clover="3.2.0">
-  <project timestamp="1662980781093" name="All files">
-    <metrics statements="19" coveredstatements="14" conditionals="12" coveredconditionals="8" methods="8" coveredmethods="7" elements="39" coveredelements="29" complexity="0" loc="19" ncloc="19" packages="2" files="2" classes="2"/>
+<coverage generated="1662980991608" clover="3.2.0">
+  <project timestamp="1662980991608" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="12" coveredconditionals="12" methods="8" coveredmethods="8" elements="39" coveredelements="39" complexity="0" loc="19" ncloc="19" packages="2" files="2" classes="2"/>
     <package name="Thermostat">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="add.js" path="/Users/nickwlong/Projects/Javascript/1. Test-driving JS/Thermostat/add.js">
@@ -12,24 +12,24 @@
       </file>
     </package>
     <package name="Thermostat.lib">
-      <metrics statements="16" coveredstatements="11" conditionals="12" coveredconditionals="8" methods="7" coveredmethods="6"/>
+      <metrics statements="16" coveredstatements="16" conditionals="12" coveredconditionals="12" methods="7" coveredmethods="7"/>
       <file name="Thermostat.js" path="/Users/nickwlong/Projects/Javascript/1. Test-driving JS/Thermostat/lib/Thermostat.js">
-        <metrics statements="16" coveredstatements="11" conditionals="12" coveredconditionals="8" methods="7" coveredmethods="6"/>
-        <line num="3" count="8" type="stmt"/>
-        <line num="4" count="8" type="stmt"/>
-        <line num="8" count="8" type="stmt"/>
-        <line num="12" count="55" type="cond" truecount="4" falsecount="0"/>
-        <line num="13" count="10" type="stmt"/>
-        <line num="15" count="55" type="cond" truecount="4" falsecount="0"/>
-        <line num="16" count="24" type="stmt"/>
+        <metrics statements="16" coveredstatements="16" conditionals="12" coveredconditionals="12" methods="7" coveredmethods="7"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="12" count="66" type="cond" truecount="4" falsecount="0"/>
+        <line num="13" count="15" type="stmt"/>
+        <line num="15" count="66" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="30" type="stmt"/>
         <line num="21" count="5" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
-        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
+        <line num="33" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
       </file>
     </package>
