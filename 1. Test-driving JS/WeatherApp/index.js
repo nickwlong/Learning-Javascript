@@ -1,7 +1,7 @@
 const got = require("got");
 const apiKey = require("./apiKey.js"); // include our key
 
-class WeatherApi {
+module.exports = class WeatherApi {
   constructor() {
     this.city = "London";
     this.apiUrl = `http://api.openweathermap.org/data/2.5/weather?units=metric&q=${this.city}&appid=${apiKey}`;
@@ -13,25 +13,20 @@ class WeatherApi {
   }
 }
 
-class Weather {
+module.exports = class Weather {
   constructor(api) {
     this.api = api;
     this.weatherData = null;
-  }
+  };
+
   fetch(location) {
-    this.api.fetchWeatherData(location, this.getWeatherData);
-  }
+    this.api.fetchWeatherData(location, (response) => {this.weatherData = response});
+  };
 
   getWeatherData(response) {
-    console.log(response);
+    return this.weatherData
   }
+
+  
 }
 
-weaApi = new WeatherApi();
-weather = new Weather(weaApi);
-
-weather.fetch("Bristol");
-weather.getWeatherData();
-
-module.exports = Weather;
-module.exports = WeatherApi;
