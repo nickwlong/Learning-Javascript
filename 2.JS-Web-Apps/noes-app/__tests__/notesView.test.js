@@ -56,6 +56,30 @@ describe("NotesView", function() {
     expect(document.querySelectorAll('div.note')[0].textContent).toBe('Testing a note addition')
 
   })
+
+  describe('Form creates new input with button twice, but only shows two.', function() {
+    document.body.innerHTML = fs.readFileSync('./index.html');
+    
+    const model = new NotesModel();
+    const view = new NotesView(model);
+
+    const input = document.querySelector('#add-note-input'); //collects the query of add-note-input
+    input.value = 'Testing a note addition' //creates mock input from form
+
+    const button = document.querySelector('#add-note-btn'); //collects the button
+    button.click() //clicks the button
+
+    const input2 = document.querySelector('#add-note-input'); //collects the query of add-note-input
+    input2.value = 'New note addition' //creates mock input from form
+
+    const button2 = document.querySelector('#add-note-btn'); //collects the button
+    button2.click() //clicks the button
+
+
+    expect(document.querySelectorAll('div.note').length).toEqual(2);
+    expect(document.querySelectorAll('div.note')[0].textContent).toBe('Testing a note addition')
+
+  })
 });
 
 // npm i jest-environment-jsdom
