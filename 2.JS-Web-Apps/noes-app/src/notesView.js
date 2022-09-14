@@ -7,14 +7,17 @@ class NotesView {
     //Select new button and add event listener for 'click'
     //Add a function to the click that creates newNote, stores the value from the form #add-note-input to addNewNote
     document.querySelector('#add-note-btn').addEventListener('click', () => {
+
       const newNote = document.querySelector('#add-note-input').value;
       this.addNewNote(newNote)
       document.querySelector('#add-note-input').value = ''
+
     })
     console.log(this.mainContainerEl);
   }
 
   addNewNote(newNote) {
+
     this.model.addNote(newNote);
     //Updates the page with the new note
     this.displayNotes()
@@ -28,6 +31,10 @@ class NotesView {
   }
 
   displayNotes() {
+    const pageNotes = document.querySelectorAll('.note');
+    pageNotes.forEach((element) => {
+      element.remove()
+    });
     const notes = this.model.getNotes()
     console.log(notes)
     notes.forEach((note) => {
