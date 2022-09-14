@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1663148149153" clover="3.2.0">
+  <project timestamp="1663148149153" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="20" coveredconditionals="20" methods="9" coveredmethods="9" elements="46" coveredelements="46" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+    <file name="TenMinuteWalk.js" path="/Users/nickwlong/Projects/Javascript/TenMinuteWalk/TenMinuteWalk.js">
+      <metrics statements="17" coveredstatements="17" conditionals="20" coveredconditionals="20" methods="9" coveredmethods="9"/>
+      <line num="3" count="16" type="stmt"/>
+      <line num="7" count="8" type="stmt"/>
+      <line num="8" count="8" type="stmt"/>
+      <line num="9" count="63" type="cond" truecount="4" falsecount="0"/>
+      <line num="10" count="12" type="stmt"/>
+      <line num="12" count="8" type="stmt"/>
+      <line num="16" count="9" type="stmt"/>
+      <line num="17" count="9" type="stmt"/>
+      <line num="18" count="71" type="cond" truecount="4" falsecount="0"/>
+      <line num="19" count="20" type="stmt"/>
+      <line num="21" count="9" type="stmt"/>
+      <line num="25" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="34" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="38" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="44" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

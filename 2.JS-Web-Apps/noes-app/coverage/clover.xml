@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1663077280555" clover="3.2.0">
-  <project timestamp="1663077280555" name="All files">
-    <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="9" coveredelements="9" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
+<coverage generated="1663153615164" clover="3.2.0">
+  <project timestamp="1663153615164" name="All files">
+    <metrics statements="21" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="6" elements="29" coveredelements="22" complexity="0" loc="21" ncloc="21" packages="1" files="2" classes="2"/>
     <file name="notesModel.js" path="/Users/nickwlong/Projects/Javascript/2.JS-Web-Apps/noes-app/src/notesModel.js">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-      <line num="3" count="3" type="stmt"/>
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <line num="3" count="6" type="stmt"/>
       <line num="6" count="3" type="stmt"/>
-      <line num="9" count="4" type="stmt"/>
+      <line num="9" count="8" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+    </file>
+    <file name="notesView.js" path="/Users/nickwlong/Projects/Javascript/2.JS-Web-Apps/noes-app/src/notesView.js">
+      <metrics statements="13" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
