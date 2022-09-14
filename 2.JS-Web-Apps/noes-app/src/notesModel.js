@@ -1,6 +1,7 @@
 class NotesModel {
   constructor() {
     this.notes = [];
+    
   }
   getNotes() {
     return this.notes;
@@ -12,8 +13,6 @@ class NotesModel {
     this.notes = [];
   }
 }
-const notesmodel = new NotesModel
-notesmodel.addNote("Buy milk");
-notesmodel.addNote("Go to the gym");
+
 
 module.exports = NotesModel;
