@@ -1,5 +1,10 @@
 const NotesModel = require("./notesModel");
 const notesmodel = new NotesModel();
-const NotesView = require("./notesView");
-const notesView = new NotesView(notesmodel);
 
+const NotesApi = require("./notesApi")
+const api = new NotesApi
+
+const NotesView = require("./notesView");
+const notesView = new NotesView(notesmodel, api);
+
+notesView.displayNotesFromApi()

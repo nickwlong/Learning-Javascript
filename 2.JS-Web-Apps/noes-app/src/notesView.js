@@ -1,23 +1,25 @@
-const NotesModel = require('./notesModel')
+const NotesModel = require('./notesModel');
 
 class NotesView {
-  constructor(model) {
+  constructor(model, api) {
     this.model = model
+    this.api = api
     this.mainContainerEl = document.querySelector('#main-container');
-    //Select new button and add event listener for 'click'
-    //Add a function to the click that creates newNote, stores the value from the form #add-note-input to addNewNote
+
     document.querySelector('#add-note-btn').addEventListener('click', () => {
 
       const newNote = document.querySelector('#add-note-input').value;
+
+      this.api.createNote(newNote)
       this.addNewNote(newNote)
+      this.displayNotes()
+
       document.querySelector('#add-note-input').value = ''
 
     })
-    console.log(this.mainContainerEl);
   }
 
   addNewNote(newNote) {
-
     this.model.addNote(newNote);
     //Updates the page with the new note
     this.displayNotes()
@@ -36,13 +38,19 @@ class NotesView {
       element.remove()
     });
     const notes = this.model.getNotes()
-    console.log(notes)
     notes.forEach((note) => {
-      console.log(note)
       this.addNoteToPage(note)
     });
-
   }
+
+  displayNotesFromApi() {
+    this.api.loadData((data) => {
+      
+      this.model.setNotes(data)
+      this.displayNotes()
+      });
+    }
+  
 
 }
 
