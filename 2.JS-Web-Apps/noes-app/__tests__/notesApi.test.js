@@ -31,20 +31,15 @@ describe('API class', () => {
   //   });
   // });
 
-  describe('#createNote', () => {
-    it('POST request on fetch with a new note', () => {
-      const api = new Api();
+//   describe('#createNote', () => {
+//     it('POST request on fetch with a new note', () => {
+//       const api = new Api();
 
-      const callback = () => {
-
-        api.loadData((response) => {
-          console.log(response)
-          expect(response).toBe("Testing");
-        })
-
-      }
-
-      api.createNote('Testing', callback)
-    });
-})
+//       api.createNote('Testing')
+//       api.loadData((response) => {
+//         console.log(response)
+//         expect(response).toBe("Testing");
+//       })
+//     });
+// })
 })

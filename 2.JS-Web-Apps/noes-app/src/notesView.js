@@ -1,5 +1,6 @@
 const NotesModel = require('./notesModel');
 
+
 class NotesView {
   constructor(model, api) {
     this.model = model
